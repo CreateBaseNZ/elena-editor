@@ -27,6 +27,7 @@
     "uuid": "^8.3.2"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "@szhsin/react-menu": "^1.10.0",
     "react-dnd": "^14.0.2",
