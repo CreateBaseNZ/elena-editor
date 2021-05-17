@@ -26,6 +26,25 @@ yarn add elena-editor
 
 ### Flow Chart Editor (React)
 
+```js
+import { FlowEditor } from "elena-editor";
+```
+
 #### Props
 
-The Flow Chart Editor uses a Node menu to specify which nodes are available to the user. This is the only
+```js
+export interface ElenaNode {
+  type: NodeType;
+  name: string;
+  id: string;
+  xPos: number;
+  yPos: number;
+  isStatic: boolean;
+  priority: number;
+  inputs?: string[];
+  outputs?: string[];
+  code?: string;
+}
+```
+
+The Flow Chart Editor uses a Node menu to specify which nodes are available to the user. The type of this menu is an array of ElenaNodes, shown above.
