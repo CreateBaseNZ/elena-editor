@@ -1,6 +1,6 @@
 {
   "name": "elena-editor",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Collection of opensource editors",
   "main": "lib/index.js",
   "scripts": {
