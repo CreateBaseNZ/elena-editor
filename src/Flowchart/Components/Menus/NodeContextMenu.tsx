@@ -200,7 +200,7 @@ const NodeContextMenu = styled(UnstyledNodeContextMenu)`
     outline: none;
   }
   .rc-menu__item--hover {
-    background-color: #ebebeb;
+    background-color: #000000;
   }
   .rc-menu__item--focusable {
     cursor: default;
