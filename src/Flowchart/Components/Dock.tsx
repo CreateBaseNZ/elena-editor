@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { DockNodeMenu } from "./DockNodeMenu";
-import { DockSearch } from "./DockSearch";
 import { DockTitle } from "./DockTitle";
 import { ElenaNode } from "../Data/NodeData";
 
@@ -15,7 +14,6 @@ const UnstyledDock = (props: DockProps) => {
   return (
     <div className={props.className}>
       <DockTitle />
-      <DockSearch />
       <DockNodeMenu nodeList={props.nodeList} />
     </div>
   );

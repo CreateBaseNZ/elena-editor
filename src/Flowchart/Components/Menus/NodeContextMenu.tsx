@@ -154,7 +154,7 @@ const NodeContextMenu = styled(UnstyledNodeContextMenu)`
     width: max-content;
     position: absolute;
     z-index: 100;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(129, 161, 193, 0.1);
     background-color: #fff;
   }
   .rc-menu:focus {
@@ -275,7 +275,7 @@ const NodeContextMenu = styled(UnstyledNodeContextMenu)`
   }
   .rc-menu__item--active {
     color: #fff;
-    background-color: #ff0022;
+    background-color: #bf616a;
   }
   .rc-menu__item--type-radio {
     padding-left: 2.2rem;
